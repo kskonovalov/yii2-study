@@ -27,3 +27,13 @@
 [Sun Dec 11 12:12:47.536684 2016] [:error] [pid 5735] [client 127.0.0.1:58140] PHP Parse error:  syntax error, unexpected '}' in /media/data/www/yii2-study/models/ContactForm.php on line 74, referer: http://yii2-study.dev/index.php?r=site%2Fcontact
 [Sun Dec 11 12:20:31.113033 2016] [:error] [pid 5736] [client 127.0.0.1:58164] PHP Fatal error:  Class 'app\\controllers\\Test' not found in /media/data/www/yii2-study/controllers/SiteController.php on line 129
 [Sun Dec 11 12:20:41.945882 2016] [:error] [pid 5783] [client 127.0.0.1:58172] PHP Fatal error:  Class 'app\\controllers\\Test' not found in /media/data/www/yii2-study/controllers/SiteController.php on line 129
+[Thu Dec 15 20:15:04.122502 2016] [:error] [pid 8686] [client 127.0.0.1:43006] PHP Parse error:  syntax error, unexpected ';' in /media/data/www/yii2-study/controllers/SiteController.php on line 132
+[Thu Dec 15 20:35:25.999523 2016] [:error] [pid 6659] [client 127.0.0.1:44210] PHP Parse error:  syntax error, unexpected ';' in /media/data/www/yii2-study/controllers/SiteController.php on line 132
+[Thu Dec 15 20:36:05.649697 2016] [:error] [pid 18222] [client 127.0.0.1:44236] PHP Fatal error:  Class 'app\\controllers\\User' not found in /media/data/www/yii2-study/controllers/SiteController.php on line 131
+[Thu Dec 15 20:39:46.666202 2016] [:error] [pid 8622] [client 127.0.0.1:44270] PHP Fatal error:  Call to a member function limit() on a non-object in /media/data/www/yii2-study/controllers/SiteController.php on line 134
+[Thu Dec 15 20:39:48.075665 2016] [:error] [pid 8688] [client 127.0.0.1:44272] PHP Fatal error:  Call to a member function limit() on a non-object in /media/data/www/yii2-study/controllers/SiteController.php on line 134
+[Thu Dec 15 20:39:50.376484 2016] [:error] [pid 6657] [client 127.0.0.1:44274] PHP Fatal error:  Call to a member function limit() on a non-object in /media/data/www/yii2-study/controllers/SiteController.php on line 134
+[Thu Dec 15 21:45:12.522656 2016] [:error] [pid 6657] [client 127.0.0.1:46016] PHP Fatal error:  Class 'app\\models\\UserAgesQuery' not found in /media/data/www/yii2-study/models/UserAges.php on line 51
+[Thu Dec 15 21:45:13.223710 2016] [:error] [pid 8622] [client 127.0.0.1:46018] PHP Fatal error:  Class 'app\\models\\UserAgesQuery' not found in /media/data/www/yii2-study/models/UserAges.php on line 51
+[Thu Dec 15 21:45:13.466093 2016] [:error] [pid 8687] [client 127.0.0.1:46020] PHP Fatal error:  Class 'app\\models\\UserAgesQuery' not found in /media/data/www/yii2-study/models/UserAges.php on line 51
+[Thu Dec 15 21:45:13.671052 2016] [:error] [pid 18126] [client 127.0.0.1:46024] PHP Fatal error:  Class 'app\\models\\UserAgesQuery' not found in /media/data/www/yii2-study/models/UserAges.php on line 51

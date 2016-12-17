@@ -18,6 +18,7 @@ use Yii;
  */
 class User extends \yii\db\ActiveRecord
 {
+    public $rememberMe;
     /**
      * @inheritdoc
      */
@@ -66,5 +67,12 @@ class User extends \yii\db\ActiveRecord
     public static function find()
     {
         return new UserQuery(get_called_class());
+    }
+
+    public function login()
+    {
+        return $this->hasOne(
+            UserAges::className(), ["user_id" => "id"]
+        );
     }
 }

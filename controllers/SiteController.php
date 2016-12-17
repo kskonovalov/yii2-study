@@ -2,7 +2,10 @@
 
 namespace app\controllers;
 
+use app\models\Drugs;
+use app\models\User;
 use Yii;
+use yii\db\Query;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -76,7 +79,7 @@ class SiteController extends Controller
             return $this->goHome();
         }
 
-        $model = new LoginForm();
+        $model = new User();
         if ($model->load(Yii::$app->request->post()) && $model->login()) {
             return $this->goBack();
         }
@@ -127,6 +130,9 @@ class SiteController extends Controller
 
     public function actionTest()
     {
+       $user = User::findOne(1);
+       VAR_DUMP($user->age);
+        /*
         $model = new LoginForm([
             'scenario' => LoginForm::SCENARIO_LOGIN
         ]);
