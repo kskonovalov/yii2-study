@@ -1,12 +1,17 @@
 <?php
+use \yii\bootstrap\ActiveForm;
+use \yii\bootstrap\Html;
+
+$this->title = 'test';
+$this->params['breadcrumbs'][] = $this->title;
+
 /**
- * Created by PhpStorm.
- * User: konstantin
- * Date: 11.12.16
- * Time: 11.43
+ * @var \app\models\Test $model
  */
 
-echo <<<EOD
-<h1>{$title}</h1>
-<p>2nd lesson special 4 {$name}</p>
-EOD;
+$form = ActiveForm::begin();
+echo $form->field($model, 'title')->textInput(["placeholder" => "тут title"]);
+echo $form->field($model, 'content')->textarea();
+echo $form->field($model, 'name')->textInput();
+echo Html::submitButton();
+ActiveForm::end();
